@@ -9,4 +9,4 @@ findElementBy: selectorString with: valueString
 						yourself))
 		onSuccess: 
 			[:result |
-			self class driver: driver elementID: ((result at: 'value') at: 'ELEMENT')]
+			self class driver: driver elementID: ((result at: 'value') at: 'element-6066-11e4-a52e-4f735466cecf')]
