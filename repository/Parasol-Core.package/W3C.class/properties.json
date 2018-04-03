@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Dialect",
+	"category" : "Parasol-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "W3C",
+	"type" : "normal"
+}

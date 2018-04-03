@@ -10,4 +10,4 @@ findElementsBy: selectorString with: valueString
 		onSuccess: 
 			[:result |
 			(result at: 'value')
-				collect: [:e | self class driver: driver elementID: (e at: 'ELEMENT')]]
+				collect: [:element | self class driver: driver elementID: (element at: driver webElementIdentifier)]]

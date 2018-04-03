@@ -2,7 +2,5 @@ private
 handleResponse: response
 
 	response httpStatus ~= 204
-		ifTrue: [ self
-				handleResponse: response
-				onSuccess:
-					[ :result | (result at: 'value') ifNotEmpty: [ self error: 'Value unexpectedly not JSON empty collection' ] ] ]
+		ifTrue:
+			[ self handleResponse: response onSuccess: [ :result | dialect handle: result ] ]

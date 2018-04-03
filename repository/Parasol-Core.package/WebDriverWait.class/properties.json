@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Parasol-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"driver",
+		"interval",
+		"timeOut"
+	],
+	"name" : "WebDriverWait",
+	"type" : "normal"
+}
